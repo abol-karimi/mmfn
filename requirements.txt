@@ -1,6 +1,6 @@
 # TODO
 filelock
-hydra-core==1.1
+hydra-core
 tqdm
 
 # leaderboard
@@ -9,17 +9,22 @@ requests
 opencv-python==4.2.0.32
 pygame
 tabulate
+pexpect
+transforms3d
 
 # scenario_runner
 py-trees==0.8.3
+numpy==1.18.4; python_version >= '3.0'
 networkx==2.2
-Shapely==1.6.4.post2
+Shapely==1.7.1
 psutil
 xmlschema==1.0.18
 ephem
-numpy
+tabulate
+opencv-python==4.2.0.32
 matplotlib
 six
+simple-watchdog-timer
 
 # kin
 scipy
